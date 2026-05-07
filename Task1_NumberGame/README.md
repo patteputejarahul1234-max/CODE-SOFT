@@ -1,41 +1,37 @@
-# 🎮 Number Guessing Game
+# Number Guessing Game
 
-## 📌 Description
-This is a Java console-based Number Guessing Game developed as part of the CodSoft Java Internship.
+This project is a console-based Number Guessing Game developed using Java as part of the CodSoft Java Internship.
 
-The player selects a difficulty level and tries to guess a randomly generated number within a limited number of attempts.
+The player has to guess a randomly generated number within a limited number of attempts. The game also includes different difficulty levels, score calculation, hints, and replay functionality.
 
----
+## Features
 
-## 🚀 Features
 - Random number generation
-- Difficulty levels (Easy, Medium, Hard)
-- Attempt tracking
-- Score calculation
+- Easy, Medium, and Hard difficulty levels
+- Limited attempts for each level
+- Score calculation based on attempts
 - Hint system
-- Replay option
-- User-friendly console interface
+- Play again option
+- Simple console interface
 
----
+## Technologies Used
 
-## 🛠 Technologies Used
 - Java
 - VS Code
 
----
+## Difficulty Levels
 
-## 🎯 Difficulty Levels
+| Difficulty | Number Range | Attempts |
+|------------|--------------|-----------|
+| Easy       | 1 - 50       | 10        |
+| Medium     | 1 - 100      | 7         |
+| Hard       | 1 - 200      | 5         |
 
-| Level | Range | Attempts |
-|------|------|------|
-| Easy | 1 - 50 | 10 |
-| Medium | 1 - 100 | 7 |
-| Hard | 1 - 200 | 5 |
+## How to Run the Program
 
----
+1. Open the project in VS Code
+2. Open terminal
+3. Compile the program using:
 
-## ▶ How to Run
-
-1. Compile the program:
 ```bash
 javac Main.java
