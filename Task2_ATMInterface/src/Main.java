@@ -2,6 +2,10 @@ public class Main {
 
     public static void main(String[] args) {
 
-        System.out.println("ATM Interface Project");
+        BankAccount account = new BankAccount(10000);
+
+        ATM atm = new ATM(account);
+
+        atm.start();
     }
 }
