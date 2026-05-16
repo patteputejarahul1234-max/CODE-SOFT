@@ -1,6 +1,6 @@
+import java.io.*;
 import java.util.ArrayList;
 import java.util.Scanner;
-import java.io.*;
 public class StudentManagementSystem {
     private ArrayList<Student> students = new ArrayList<>();
     private Scanner scanner = new Scanner(System.in);
